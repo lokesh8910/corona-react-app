@@ -23,7 +23,7 @@ class Cases extends React.Component{
         })
         .catch(console.log)
 
-        fetch('http://localhost:64587/api/countrydetail')
+        fetch('http://137.207.82.228:90/api/countrydetail')
         .then(res => res.json())
         .then((apidata) => {
           //console.log(apidata)
